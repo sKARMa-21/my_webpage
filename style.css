@@ -1,9 +1,8 @@
 :root{
-    --bg:#faf8f5;
-    --fg:#0e0d0b;
-    --mid:#6b6860;
+    --bg: #0e0d0d;
+    --fg: #e9e6df;
+    --mid: #918d84;
 }
-
 *{
     margin:0;
     padding:0;
@@ -33,7 +32,9 @@ li
     list-style: none;
 }
 a{
-    color: #103CD6;
+    /* color: #103CD6;
+     */
+    color: #7d96e8;
     text-decoration: none;
 }
 
@@ -71,11 +72,11 @@ a:hover{
     flex-direction: column;
     align-items: first baseline;
     gap: 10px;
-}
+    color: #e9e6df;}
 #hero .title-header h1{
     font-family: "Google Sans Code", monospace;
     font-size: 30px;
-    color: #0e0d0b;
+    color: #e9e6df;
 }
 #hero .title-header h2{
     font-size: 20px;
@@ -97,6 +98,7 @@ a:hover{
     border-radius: 2px;
     font-weight: 300;
     padding: 1px;
+    color: #0e0d0b;
 }
 hr{
     /* margin: 40px; */
@@ -157,10 +159,10 @@ hr{
 
 #grid-sec div span{
     font-size: 17px;
-    color: #0e0d0b;
     padding-bottom: 5px;
 }
 #grid-sec div li{
+    /* color: #7d96e8; */
     font-family: "Google Sans Code", monospace;
     font-size: 15px;
     padding: 2px;
@@ -181,7 +183,7 @@ hr{
     /* margin-bottom: 28px; */
     font-size: 1rem;
     line-height: 1.5;
-    color: #0e0d0b;
+    /* color: #0e0d0b; */
 }
 .about h1{
     font-size: 20px;
@@ -272,7 +274,7 @@ hr{
 .extra-item span {
     font-family: "Google Sans Code", monospace;
     font-size: 14px;
-    color: #0e0d0b;
+    /* color: #0e0d0b; */
 }
 footer{
     display: flex;
