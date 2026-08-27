@@ -276,7 +276,8 @@ hr{
 }
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
     padding: 40px;
 }
 
