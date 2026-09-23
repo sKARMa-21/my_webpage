@@ -8,3 +8,5 @@ https://github.com/sKARMa-21/assignment2-cs699.git
 Personal Portfolio
 
 My personal portfolio website built with HTML and CSS.
+
+Live: https://skarmarinchen.github.io/
